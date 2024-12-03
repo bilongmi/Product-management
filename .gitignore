@@ -1,1 +1,50 @@
-node_modules
+# Répertoires contenant des fichiers générés automatiquement
+/var/
+/vendor/
+
+# Cache et logs
+!var/.gitkeep
+!var/log/.gitkeep
+
+# Fichiers d'environnement sensibles
+.env
+.env.local
+.env.*.local
+
+# Fichiers et répertoires de l'IDE
+/.idea/
+/.vscode/
+*.iml
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Fichiers de déploiement
+/.env.prod
+/.env.staging
+/deploy/
+/node_modules/
+
+# Fichiers temporaires
+*.log
+*.cache
+*.tmp
+
+# Fichiers compilés
+/public/bundles/
+/public/build/
+
+# Fichiers PHPUnit
+/phpunit.result.cache
+
+# Fichiers de sauvegarde ou spécifiques à l'utilisateur
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# Autres fichiers générés par Symfony
+/.phpunit.cache
+
